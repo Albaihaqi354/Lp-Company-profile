@@ -1,0 +1,194 @@
+# Website Company Profile
+
+Website Company Profile modern dan responsif yang dibangun dengan Next.js dan Tailwind CSS. Website ini menampilkan profil perusahaan lengkap dengan berbagai section interaktif dan animasi yang menarik.
+
+## ✨ Fitur Utama
+
+- **Responsive Design** - Tampil sempurna di semua perangkat (desktop, tablet, mobile)
+- **Modern UI/UX** - Desain yang clean dan profesional
+- **Smooth Animations** - Animasi scroll dan hover yang halus
+- **Interactive Components** - Testimonial slider, form kontak dengan validasi
+- **SEO Optimized** - Struktur HTML yang SEO-friendly
+- **Fast Loading** - Optimasi performa dengan Next.js
+- **Sticky Navigation** - Header yang mengikuti scroll dengan efek blur
+
+## 🚀 Demo
+
+[Live Demo](https://your-demo-url.vercel.app) (Ganti dengan URL demo Anda)
+
+## 📋 Sections
+
+1. **Header** - Navigation dengan sticky effect
+2. **Hero** - Section pembuka dengan CTA button
+3. **About** - Tentang perusahaan dengan visi, misi, dan nilai
+4. **Services** - Layanan yang ditawarkan (6 layanan utama)
+5. **Portfolio** - Showcase proyek-proyek terbaik
+6. **Team** - Tim profesional perusahaan
+7. **Testimonials** - Testimoni klien dengan slider
+8. **Contact** - Form kontak dengan validasi
+9. **Footer** - Informasi kontak dan social media
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Icons**: Lucide React
+- **Animations**: CSS Transitions & Transforms
+- **Form Handling**: React Hook Form (ready to implement)
+
+## 📦 Instalasi
+
+### Persyaratan Sistem
+- Node.js 18.0 atau lebih baru
+- npm atau yarn
+
+### Langkah Instalasi
+
+1. **Clone repository**
+\`\`\`bash
+git clone https://github.com/username/company-profile.git
+cd company-profile
+\`\`\`
+
+2. **Install dependencies**
+\`\`\`bash
+npm install
+# atau
+yarn install
+\`\`\`
+
+3. **Jalankan development server**
+\`\`\`bash
+npm run dev
+# atau
+yarn dev
+\`\`\`
+
+4. **Buka browser**
+\`\`\`
+http://localhost:3000
+\`\`\`
+
+## 🏗️ Build untuk Production
+
+\`\`\`bash
+# Build project
+npm run build
+
+# Jalankan production server
+npm start
+\`\`\`
+
+## 📁 Struktur Project
+
+\`\`\`
+company-profile/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── about.tsx
+│   ├── back-to-top.tsx
+│   ├── contact.tsx
+│   ├── footer.tsx
+│   ├── header.tsx
+│   ├── hero.tsx
+│   ├── portfolio.tsx
+│   ├── services.tsx
+│   ├── team.tsx
+│   └── testimonials.tsx
+├── hooks/
+│   └── use-scroll-animation.ts
+├── public/
+│   └── [images]
+└── README.md
+\`\`\`
+
+## 🎨 Kustomisasi
+
+### Mengubah Konten
+1. **Informasi Perusahaan**: Edit file `components/about.tsx`
+2. **Layanan**: Modifikasi `components/services.tsx`
+3. **Portfolio**: Update `components/portfolio.tsx`
+4. **Tim**: Edit `components/team.tsx`
+5. **Kontak**: Ubah informasi di `components/contact.tsx` dan `components/footer.tsx`
+
+### Mengubah Warna
+Warna utama dapat diubah di file `app/globals.css`:
+\`\`\`css
+:root {
+  --primary: your-color;
+  --secondary: your-color;
+}
+\`\`\`
+
+### Menambah Gambar
+1. Letakkan gambar di folder `public/`
+2. Gunakan path relatif: `/nama-gambar.jpg`
+
+## 🚀 Deploy
+
+### Deploy ke Vercel (Recommended)
+1. Push code ke GitHub
+2. Connect repository ke [Vercel](https://vercel.com)
+3. Deploy otomatis akan berjalan
+
+### Deploy ke Netlify
+1. Build project: `npm run build`
+2. Upload folder `out/` ke Netlify
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+
+## 🔧 Pengembangan Lebih Lanjut
+
+### Fitur yang Bisa Ditambahkan
+- [ ] Blog section
+- [ ] Multi-language support
+- [ ] Dark mode toggle
+- [ ] Contact form backend integration
+- [ ] Google Analytics
+- [ ] Live chat widget
+- [ ] Loading animations
+- [ ] Image optimization
+
+### Backend Integration
+Untuk mengintegrasikan dengan backend:
+1. Setup API routes di `app/api/`
+2. Implementasi form handling
+3. Database integration (Supabase/MongoDB)
+
+## 🤝 Contributing
+
+1. Fork repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📞 Support
+
+Jika Anda memiliki pertanyaan atau butuh bantuan:
+- Email: support@yourcompany.com
+- Website: https://yourcompany.com
+- GitHub Issues: [Create Issue](https://github.com/username/company-profile/issues)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [Lucide](https://lucide.dev/) - Icon library
+- [Vercel](https://vercel.com/) - Deployment platform
+
+---
+
+**Dibuat dengan ❤️ menggunakan Next.js dan Tailwind CSS**
